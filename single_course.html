@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>single course</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="../js/bootstrap.js"></script>
+<style>
+
+
+.nav-item{
+
+  color: brown;
+  padding: 20px;
+text-decoration: none;
+transition: 0.3s;
+margin: 0.7px;
+z-index: 1;
+position: relative;
+}
+
+.nav-item:before{
+
+  content:"";
+  position: absolute;
+  bottom: -7px;
+left:0;
+width: 100%;
+height: 3px;
+background-color: white;
+border-radius: 9px 8px 0 0;
+opacity: 0;
+transition: 0.3s;
+}
+
+.nav-item:not(is-active):hover:before{
+  opacity: 1;
+  bottom: 0;
+}
+
+
+</style>
+</head>
+<body>
+   
+    <!--container start from here-->
+    <div class="container-fluid">
+
+        <!--row 1starts from here-->
+ <div class="row " style="background-color: #1E90FF;">
+    <div class="col-md-2 ">
+        <!--bloc for navbar margin-->
+    </div>
+    <div class="col-md-8 ">
+        <!--navbar 1 starts from here-->
+        <nav class="navbar navbar-expand-md px-0  ">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i style="color: white;" class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i style="color: white;" class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a style="color: white;" href="" class="nav-link"><i
+                            class="fas fa-envelope-square mr-2"></i>vidya@edu.com</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: white;" href="" class="nav-link"><i style="color: white;"
+                            class="fas fa-phone  mr-2"></i>8122345678</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="" style="color: white;" data-toggle="dropdown"
+                        class="nav-link dropdown-toggle"><i class="fas fa-language mr-2"></i>ENG</a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">HINDI</a>
+                        <a href="" class="dropdown-item">Japnese</a>
+                        <a href="" class="dropdown-item">ENG(US)</a>
+            
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a href="LOGIN.html" class="nav-link"><button
+                          class="btn btn-light btn-outline-primary">Login</button></a>
+              </li>
+              <li class="nav-item">
+                  <a href="SIGN_UP.html" class="nav-link"><button
+                          class="btn btn-light btn-outline-primary">SignUp</button></a>
+              </li>
+            </ul>
+        </nav>
+        <!--navbar 1 starts from here-->
+    </div>
+    <div class="col-md-2 ">
+        <!--bloc for navbar margin-->
+    </div>
+
+
+</div>
+<!--row 1 ends from here-->
+
+
+<!--2nd row starts from here-->
+<div class="row" style="background-color: #1E90FF;" >
+    <div class="col-md-2 ">
+
+    </div>
+    <div class="col-md-8 ">
+        <nav class="navbar navbar-expand-md px-0 ">
+            <a href="" style="color: white;" class="navbar-brand">Vidya Infinity</a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a href="HOME1.html" style="color: white;"  id="homeId" class="nav-link ">Home</a>
+                
+              </li>
+
+
+
+                <!--dropdown EVENTS start-->
+                <li class="nav-item dropdown">
+                    <a href="" style="color: white;" data-toggle="dropdown"
+                        class="nav-link dropdown-toggle">Events</a>
+                    <div class="dropdown-menu">
+                        <a href="SINGLEEVENTS.html" class="dropdown-item">Single Events </a>
+                        <a href="EVENTCALENDER.html" class="dropdown-item">Events Calender</a>
+
+
+                    </div>
+                </li>
+                <!--dropdown EVENTS ends-->
+
+               <!--dropdown PAGES start-->
+<li class="nav-item dropdown">
+  <a href="" style="color: white;" data-toggle="dropdown" id="pagesId" class="nav-link dropdown-toggle">Pages</a>
+  <div id="pagesDdmId" class="dropdown-menu">
+    <a href="OUR_MISSION.html" class="dropdown-item">Our Mission</a>
+    <a href="PROCESS.html" class="dropdown-item">Process</a>
+    <a href="ABOUT.html" class="dropdown-item">About</a>
+    <a href="become_a_teacher.html" class="dropdown-item">Become A Teacher</a>
+    <a href="for_buisness.html" class="dropdown-item">For Buisness</a>
+    <a href="services.html" class="dropdown-item">Services</a>
+    <a href="our_team.html" class="dropdown-item">Our Team</a>
+    <a href="single_team.html" class="dropdown-item">Single Team</a>
+
+    <a href="404.html" class="dropdown-item">404</a>
+    <a href="single_course.html" class="dropdown-item">Single Course</a>
+    <a href="TOPOGRAPHY.html" class="dropdown-item">Topography</a>
+    <a href="comming_soon.html" class="dropdown-item">Coming Soon</a>
+    <a href="GALLERY.html" class="dropdown-item">Gallery</a>
+
+
+
+
+
+  </div>
+</li>
+<!--dropdown PAGES ends-->
+
+                 <!--dropdown NEWS start-->
+                 <li class="nav-item dropdown">
+                  <a href="" style="color: white;" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                      News</a>
+                  <div class="dropdown-menu">
+                      <a href="FULL_WIDTH_LISTING.html" class="dropdown-item">Full Width Listing </a>
+                      <a href="with_right_sidebar.html" class="dropdown-item">With Right Sidebar</a>
+                      <a href="with_left_sidebar.html" class="dropdown-item">With Left Sidebar</a>
+
+                      <a href="FULL_WIDTH_LISTING.html" class="dropdown-item">Blog Post</a>
+
+
+
+                  </div>
+              </li>
+              <!--dropdown NEWS ends-->
+
+                <!-- li TAG for course and contact START-->
+
+                <li class="nav-item">
+                    <a href="COURSES.html" class="nav-link" style="color: white;">Courses</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="CONTACTS.html" class="nav-link" style="color: white;">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" style="color: white;" class="nav-link"><i class="fas fa-search"></i></a>
+                </li>
+                <!--li  TAG for course and contact ENDS-->
+            </ul>
+            
+        </nav>
+    </div>
+    <div class="col-md-2 ">
+
+    </div>
+
+
+</div>
+
+<!--2nd row ends here-->
+<!--single course start-->
+<div class="row">
+    <div class="col-md-12 text-center my-5">
+<h3><a href="single_course.html" style="text-decoration: none; color: black;">Single Course</a></h3>
+<p><a href="HOME1.html" style="text-decoration: none; color: black;">Home></a><a href="single_course.html" style="text-decoration: none; color: black;">Single Course</a></p>
+
+
+    </div>
+
+</div>
+
+<!--single course start-->
+
+<!--image start-->
+
+<div class="row">
+    <div class="col-md-2">
+
+    </div>
+
+    <div class="col-md-8">
+<img style="width: 100%; height: auto;" src="https://livewp.site/html/smartedu/img/course/course_01.jpg" alt="">
+<p class="my-3"><i style="color: yellow;" class="fas fa-star"></i>
+    <i style="color: yellow;" class="fas fa-star"></i>
+    <i style="color: yellow;" class="fas fa-star"></i>
+    <i style="color: yellow;" class="fas fa-star"></i>
+    <i style="color: yellow;" class="fas fa-star"></i>
+</p>
+<p class="text-muted"><span>Design</span> <span> <i class="fas fa-book mr-2 ml-1"></i> 50 Lessons</span>  <span> <i class="fas fa-users  mr-2 ml-1"></i> 25 Seats</span></p>
+  
+<h3 class="my-5">Graphic Design    <span class="p-1" style="float: right; border-radius: 20px ; border: 1px solid grey;">$250</span>   </h3>
+<p><button class="btn btn-light btn-outline-info p-2 mr-5">OVERVIEW</button>
+    <button class="btn btn-light btn-outline-info p-2  mr-5 ">CARRICULAM</button>
+    <button class="btn btn-light btn-outline-info p-2">TEACHERS</button>
+
+</p>
+
+<p class="text-muted my-5">Graphic design is the process of visual communication and problem-solving using one or more of typography, photography and illustration. The field is considered a subset of visual communication and communication design, but sometimes the term "graphic design" is used synonymously. Graphic designers create and combine symbols, images and text to form visual representations of ideas and messages. They use typography, visual arts and page layout techniques to create visual compositions. Common uses of graphic design include corporate design (logos and branding), editorial design (magazines, newspapers and books), wayfinding or environmental design, advertising, web design, communication design, product packaging.
+
+    A graphic design project may involve the stylization and presentation of existing text and either preexisting imagery or images developed by the graphic designer. Elements can be incorporated in both traditional and digital form, which involves the use of visual arts, typography, and page layout techniques. Graphic designers organize pages and optionally add graphic elements. Graphic designers can commission photographers or illustrators to create original pieces. Designers use digital tools, often referred to as interactive design, or multimedia design. Designers need communication skills to convince an audience and sell their designs.The "process school" is concerned with communication; it highlights the channels and media through which messages are transmitted and by which senders and receivers encode and decode these message. The semiotic school treats a message as a construction of signs which through interaction with receivers, produces meaning; communication as an agent.
+</p>
+<p ><button class="btn btn-light btn-outline-info p-2" >Buy Course</button></p>
+
+</div>
+    <div class="col-md-2">
+
+    </div>
+
+</div>
+<!--image end-->
+
+
+
+
+
+
+<!--Leave a comment-->
+
+
+
+<div class="row">
+
+    <div class="col-md-2 my-5">
+
+    </div>
+    <div class="col-md-8 bg-light my-5">
+ <h3>Leave a comment</h3>
+
+ <input type="text" placeholder="name" class="form-control p-2 my-2">
+ <input type="email" placeholder="email" class="form-control p-2 my-2">
+ <input type="text" placeholder="website" class="form-control p-2 my-2">
+ <input type="text " placeholder="Message" class="form-control p-2 my-2">
+ <input type="submit" value="Post Comment" class="btn btn-light btn-outline-info p-2 my-2">
+    </div>
+    <div class="col-md-2 my-5">
+
+    </div>
+
+</div>
+
+
+
+<!--Leave a comment-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--2nd last div start row-->
+
+<div class="row">
+    <div class="col-md-2 bg-dark">
+
+    </div>
+    <div class="col-md-8 bg-dark">
+
+      <div id="2ndlast" style="color: white; " class=" bg-dark">
+
+        <div class="row my-5">
+          <div class="col-md-3">
+
+            <ul style="list-style-type: none;">
+              <li>
+                <h3>Vidya Education</h3>
+              </li>
+              <li>Location:</li>
+              <li class="text-muted">Chandigarh</li>
+              <li>Office Hours:</li>
+              <li class="text-muted">8:00am - 5:00pm</li>
+              <li>Telephone:</li>
+              <li class="text-muted">826-696-8370</li>
+              <li>Email:</li>
+              <li class="text-muted">vidyainfinityedu@edu.com</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+
+            <ul style="list-style-type: none;">
+              <li>
+                <h3>Explore More</h3>
+              </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">History & Mission</a> </li>
+              <li >   <a href="" class="text-muted" style="text-decoration: none;">Administration</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Community</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Around the World</a></li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;"> News Network</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;"> Visitor Information</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
+              <li >  <a href="" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">  Campus Directories</a></li>
+             
+             
+              <li >
+                <a href="" class="text-muted" style="text-decoration: none;"> Employment</a>   </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+
+
+            <ul style="list-style-type: none;">
+              <li>
+                <h3>Addmissions</h3>
+              </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Undergraduate</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;"> By School</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Process</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Visitor Information</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">For Prospective Parents</a> </li>
+            </ul>
+
+          </div>
+
+          <div class="col-md-3">
+            <ul style="list-style-type: none;">
+              <li>
+                <h3>Research</h3>
+              </li>
+
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Applied Physics Laboratory</a> </li>
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Research Projects Administration</a> </li>
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Funding Opportunities</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Undergraduate Research</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Resources</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Health & Medicine</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Social Sciences, Humanities & Arts</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Natural Sciences, Engineering & Tech</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Global Research</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Technology Transfer</a> </li>
+
+
+
+
+
+
+
+
+
+
+
+            
+            </ul>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="col-md-2 bg-dark">
+
+    </div>
+
+  </div>
+  <!--2nd last div end row-->
+  <!--last navbar start-->
+  <div class="row border border-outline-light">
+    <div class="col-md-2 bg-dark">
+
+    </div>
+    <div class="col-md-8 bg-dark">
+      <nav class="navbar navbar-expand-md bg-dark">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link text-muted" style="color: white;">
+              <i class="far fa-copyright"></i>
+              2021 Vidya Infinity.All Copyrights
+              Rights Reserved</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link text-muted" style="color: white;">Privacy Policy </a>
+          </li>
+          <li class="nav-itm">
+            <a href="" class="nav-link text-muted" style="color: white;">|</a>
+          </li>
+          <li class="nav-itm">
+            <a href="" class="nav-link text-muted" style="color: white;">Terms of Use</a>
+          </li>
+        </ul>
+
+      </nav>
+
+    </div>
+    <div class="col-md-2 bg-dark">
+
+    </div>
+
+  </div>
+
+  <!--last navbar ends-->
+
+
+    </div>
+    <!--container ends here-->
+
+</body>
+</html>

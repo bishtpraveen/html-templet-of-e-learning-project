@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="../js/bootstrap.js"></script>
+<style>
+
+
+.nav-item{
+
+  color: brown;
+  padding: 20px;
+text-decoration: none;
+transition: 0.3s;
+margin: 0.7px;
+z-index: 1;
+position: relative;
+}
+
+.nav-item:before{
+
+  content:"";
+  position: absolute;
+  bottom: -7px;
+left:0;
+width: 100%;
+height: 3px;
+background-color: white;
+border-radius: 9px 8px 0 0;
+opacity: 0;
+transition: 0.3s;
+}
+
+.nav-item:not(is-active):hover:before{
+  opacity: 1;
+  bottom: 0;
+}
+
+
+</style>
+</head>
+<body>
+   
+    <!--container start from here-->
+    <div class="container-fluid">
+
+        <!--row 1starts from here-->
+ <div class="row " style="background-color: #1E90FF;">
+    <div class="col-md-2 ">
+        <!--bloc for navbar margin-->
+    </div>
+    <div class="col-md-8 ">
+        <!--navbar 1 starts from here-->
+        <nav class="navbar navbar-expand-md px-0  ">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i style="color: white;" class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i style="color: white;" class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a style="color: white;" href="" class="nav-link"><i
+                            class="fas fa-envelope-square mr-2"></i>vidya@edu.com</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: white;" href="" class="nav-link"><i style="color: white;"
+                            class="fas fa-phone  mr-2"></i>8122345678</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="" style="color: white;" data-toggle="dropdown"
+                        class="nav-link dropdown-toggle"><i class="fas fa-language mr-2"></i>ENG</a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">HINDI</a>
+                        <a href="" class="dropdown-item">Japnese</a>
+                        <a href="" class="dropdown-item">ENG(US)</a>
+            
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a href="LOGIN.html" class="nav-link"><button
+                          class="btn btn-light btn-outline-primary">Login</button></a>
+              </li>
+              <li class="nav-item">
+                  <a href="SIGN_UP.html" class="nav-link"><button
+                          class="btn btn-light btn-outline-primary">SignUp</button></a>
+              </li>
+            </ul>
+        </nav>
+        <!--navbar 1 starts from here-->
+    </div>
+    <div class="col-md-2 ">
+        <!--bloc for navbar margin-->
+    </div>
+
+
+</div>
+<!--row 1 ends from here-->
+
+
+<!--2nd row starts from here-->
+<div class="row" style="background-color: #1E90FF;" >
+    <div class="col-md-2 ">
+
+    </div>
+    <div class="col-md-8 ">
+        <nav class="navbar navbar-expand-md px-0 ">
+            <a href="" style="color: white;" class="navbar-brand">Vidya Infinity</a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a href="HOME1.html" style="color: white;"  id="homeId" class="nav-link ">Home</a>
+                
+              </li>
+
+
+
+                <!--dropdown EVENTS start-->
+                <li class="nav-item dropdown">
+                    <a href="" style="color: white;" data-toggle="dropdown"
+                        class="nav-link dropdown-toggle">Events</a>
+                    <div class="dropdown-menu">
+                        <a href="SINGLEEVENTS.html" class="dropdown-item">Single Events </a>
+                        <a href="EVENTCALENDER.html" class="dropdown-item">Events Calender</a>
+
+
+                    </div>
+                </li>
+                <!--dropdown EVENTS ends-->
+
+               <!--dropdown PAGES start-->
+<li class="nav-item dropdown">
+  <a href="" style="color: white;" data-toggle="dropdown" id="pagesId" class="nav-link dropdown-toggle">Pages</a>
+  <div id="pagesDdmId" class="dropdown-menu">
+    <a href="OUR_MISSION.html" class="dropdown-item">Our Mission</a>
+    <a href="PROCESS.html" class="dropdown-item">Process</a>
+    <a href="ABOUT.html" class="dropdown-item">About</a>
+    <a href="become_a_teacher.html" class="dropdown-item">Become A Teacher</a>
+    <a href="for_buisness.html" class="dropdown-item">For Buisness</a>
+    <a href="services.html" class="dropdown-item">Services</a>
+    <a href="our_team.html" class="dropdown-item">Our Team</a>
+    <a href="single_team.html" class="dropdown-item">Single Team</a>
+
+    <a href="404.html" class="dropdown-item">404</a>
+    <a href="single_course.html" class="dropdown-item">Single Course</a>
+    <a href="TOPOGRAPHY.html" class="dropdown-item">Topography</a>
+    <a href="comming_soon.html" class="dropdown-item">Coming Soon</a>
+    <a href="GALLERY.html" class="dropdown-item">Gallery</a>
+
+
+
+
+
+  </div>
+</li>
+<!--dropdown PAGES ends-->
+
+                 <!--dropdown NEWS start-->
+                 <li class="nav-item dropdown">
+                  <a href="" style="color: white;" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                      News</a>
+                  <div class="dropdown-menu">
+                      <a href="FULL_WIDTH_LISTING.html" class="dropdown-item">Full Width Listing </a>
+                      <a href="with_right_sidebar.html" class="dropdown-item">With Right Sidebar</a>
+                      <a href="with_left_sidebar.html" class="dropdown-item">With Left Sidebar</a>
+
+                      <a href="FULL_WIDTH_LISTING.html" class="dropdown-item">Blog Post</a>
+
+
+
+                  </div>
+              </li>
+              <!--dropdown NEWS ends-->
+
+                <!-- li TAG for course and contact START-->
+
+                <li class="nav-item">
+                    <a href="COURSES.html" class="nav-link" style="color: white;">Courses</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="CONTACTS.html" class="nav-link" style="color: white;">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" style="color: white;" class="nav-link"><i class="fas fa-search"></i></a>
+                </li>
+                <!--li  TAG for course and contact ENDS-->
+            </ul>
+            
+        </nav>
+    </div>
+    <div class="col-md-2 ">
+
+    </div>
+
+
+</div>
+
+<!--2nd row ends here-->
+<!--Our Team start-->
+
+<div class="row">
+    <div class="col-md-12 text-center my-5">
+<h3><a href="our_team.html" style="text-decoration: none; color: black;">Our Team</a></h3>
+<p><a href="HOME1.html" style="text-decoration: none; color: black;">Home></a><a href="our_team.html" style="text-decoration: none; color: black;">Our Team</a></p>
+
+
+    </div>
+
+</div>
+
+<!--Our Team end-->
+
+<!--All economy languages Start-->
+
+
+<div class="row">
+    <div class="col-md-12 text-center my-5">
+<span class="mr-3 ">All</span>
+<span class="mr-3  ">Economy</span>
+<span class="mr-3 ">Languages</span>
+
+<span class="mr-3 ">Design</span>
+
+<span class="mr-3 ">Biology</span>
+
+<span class="mr-3 ">History</span>
+
+<span class="mr-3 ">Mathematics</span>
+
+<span>Technologies</span>
+
+  
+    </div>
+
+</div>
+
+
+
+<!--All economy languages Design... end-->
+
+<!--our teachers start-->
+<div class="row">
+    <div class="col-md-3 my-5 ">
+
+    </div>
+    <div class="col-md-6 text-center my-5">
+<h3>Our Professional Teachers Science</h3>
+<p class="text-muted">Suspendisse sodales arcu velit, non pretium massa accumsan non. Proin accumsan placerat mauris sit amet condimentum. 
+    Morbi luctus risus tincidunt urna hendrerit mollis.
+</p>
+    </div>
+    <div class="col-md-3 my-5">
+
+    </div>
+
+</div>
+
+<!--our teachers end-->
+<!--3  teachers images start-->
+<div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-4">
+<img style="width: 100%; height:  50vh; border-radius: 15px;" src="https://media-exp1.licdn.com/dms/image/C5103AQGoKqOioZ-CuQ/profile-displayphoto-shrink_800_800/0/1578234676330?e=1623888000&v=beta&t=f-9vfE9BTbnDWKlnr3UjQoA9ylQY5z3qF7SGW-ESKa4" alt="">
+<h3>Praveen Kumar Bisht</h3>
+<p>Professor of Mathematics</p>
+            </div>
+            <div class="col-md-4">
+<img style="width: 100%; height:  50vh;border-radius: 15px;" src="https://www.bu.edu/sociology/files/2020/02/Ashley-Mears-357x636.png" alt="">
+<h3>Karren Johnson</h3>
+<p>Professor of Biology</p>
+            </div>
+            <div class="col-md-4">
+<img style="width: 100%; height: 50vh;border-radius: 15px;" src="https://i.pinimg.com/564x/41/ce/f1/41cef1cd99e159688a254cc0ecb6aa6a.jpg" alt="">
+<h3>Marisa Tailor</h3>
+<p>Teacher of Geometry</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-2">
+
+    </div>
+
+</div>
+
+<!--3  teachers images END-->
+<!--our teachers start-->
+<div class="row">
+    <div class="col-md-3 my-5 ">
+
+    </div>
+    <div class="col-md-6 text-center my-5">
+<h3>Our Professional Teachers Humanities</h3>
+<p class="text-muted">Suspendisse sodales arcu velit, non pretium massa accumsan non. Proin accumsan placerat mauris sit amet condimentum. 
+    Morbi luctus risus tincidunt urna hendrerit mollis.
+</p>
+    </div>
+    <div class="col-md-3 my-5">
+
+    </div>
+
+</div>
+
+<!--our teachers end-->
+<!--3  teachers images start-->
+<div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-4">
+<img style="width: 100%; height:  50vh; border-radius: 15px;" src="http://math.jacobs-university.de/petrat/photo.jpg" alt="">
+<h3>Samuel Williams</h3>
+<p>Professor of History</p>
+            </div>
+            <div class="col-md-4">
+<img style="width: 100%; height:  50vh;border-radius: 15px;" src="https://livewp.site/html/smartedu/img/img_03.png" alt="">
+<h3>Karren Johnson</h3>
+<p>Professor of Art & Culture</p>
+            </div>
+            <div class="col-md-4">
+<img style="width: 100%; height: 50vh;border-radius: 15px;" src="https://media-exp1.licdn.com/dms/image/C5103AQGoKqOioZ-CuQ/profile-displayphoto-shrink_800_800/0/1578234676330?e=1623888000&v=beta&t=f-9vfE9BTbnDWKlnr3UjQoA9ylQY5z3qF7SGW-ESKa4" alt="">
+<h3>Praveen Kumar Bisht</h3>
+<p>Teacher of Geography</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-2">
+
+    </div>
+
+</div>
+
+<!--3  teachers images END-->
+<!--our teachers start-->
+<div class="row">
+    <div class="col-md-3 my-5 ">
+
+    </div>
+    <div class="col-md-6 text-center my-5">
+<h3>Our Professional Teachers Engineering</h3>
+<p class="text-muted">Suspendisse sodales arcu velit, non pretium massa accumsan non. Proin accumsan placerat mauris sit amet condimentum. 
+    Morbi luctus risus tincidunt urna hendrerit mollis.
+</p>
+    </div>
+    <div class="col-md-3 my-5">
+
+    </div>
+
+</div>
+
+<!--our teachers end-->
+<!--3  teachers images start-->
+<div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-4">
+<img style="width: 100%; height:  50vh; border-radius: 15px;" src="http://math.jacobs-university.de/petrat/photo.jpg" alt="">
+<h3>Samuel Williams</h3>
+<p>Professor of AI & ML</p>
+            </div>
+            <div class="col-md-4">
+<img style="width: 100%; height:  50vh;border-radius: 15px;" src="https://livewp.site/html/smartedu/img/img_03.png" alt="">
+<h3>Karren Johnson</h3>
+<p>Professor of Analog Electronics</p>
+            </div>
+            <div class="col-md-4">
+<img style="width: 100%; height: 50vh;border-radius: 15px;" src="https://i.pinimg.com/564x/41/ce/f1/41cef1cd99e159688a254cc0ecb6aa6a.jpg" alt="">
+<h3>Marisa Tailor</h3>
+<p>Teacher of Radar Engineering</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-2">
+
+    </div>
+
+</div>
+
+<!--3  teachers images END-->
+
+
+
+<!--2nd last div start row-->
+
+<div class="row">
+    <div class="col-md-2 bg-dark">
+
+    </div>
+    <div class="col-md-8 bg-dark">
+
+      <div id="2ndlast" style="color: white; " class=" bg-dark">
+
+        <div class="row my-5">
+          <div class="col-md-3">
+
+            <ul style="list-style-type: none;">
+              <li>
+                <h3>Vidya Education</h3>
+              </li>
+              <li>Location:</li>
+              <li class="text-muted">Chandigarh</li>
+              <li>Office Hours:</li>
+              <li class="text-muted">8:00am - 5:00pm</li>
+              <li>Telephone:</li>
+              <li class="text-muted">826-696-8370</li>
+              <li>Email:</li>
+              <li class="text-muted">vidyainfinityedu@edu.com</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+
+            <ul style="list-style-type: none;">
+              <li>
+                <h3>Explore More</h3>
+              </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">History & Mission</a> </li>
+              <li >   <a href="" class="text-muted" style="text-decoration: none;">Administration</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Community</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Around the World</a></li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;"> News Network</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;"> Visitor Information</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
+              <li >  <a href="" class="text-muted" style="text-decoration: none;"> Social Media</a> </li>
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">  Campus Directories</a></li>
+             
+             
+              <li >
+                <a href="" class="text-muted" style="text-decoration: none;"> Employment</a>   </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+
+
+            <ul style="list-style-type: none;">
+              <li>
+                <h3>Addmissions</h3>
+              </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Undergraduate</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;"> By School</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Process</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">Visitor Information</a> </li>
+              <li > <a href="" class="text-muted" style="text-decoration: none;">For Prospective Parents</a> </li>
+            </ul>
+
+          </div>
+
+          <div class="col-md-3">
+            <ul style="list-style-type: none;">
+              <li>
+                <h3>Research</h3>
+              </li>
+
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Applied Physics Laboratory</a> </li>
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Research Projects Administration</a> </li>
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Funding Opportunities</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Undergraduate Research</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Resources</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Health & Medicine</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Social Sciences, Humanities & Arts</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Natural Sciences, Engineering & Tech</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Global Research</a> </li>
+
+              <li >  <a href="" class="text-muted" style="text-decoration: none;">Technology Transfer</a> </li>
+
+
+
+
+
+
+
+
+
+
+
+            
+            </ul>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="col-md-2 bg-dark">
+
+    </div>
+
+  </div>
+  <!--2nd last div end row-->
+  <!--last navbar start-->
+  <div class="row border border-outline-light">
+    <div class="col-md-2 bg-dark">
+
+    </div>
+    <div class="col-md-8 bg-dark">
+      <nav class="navbar navbar-expand-md bg-dark">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link text-muted" style="color: white;">
+              <i class="far fa-copyright"></i>
+              2021 Vidya Infinity.All Copyrights
+              Rights Reserved</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link  text-muted"><i style="color: white;" class="fab fa-google-plus-g"></i></a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link text-muted" style="color: white;">Privacy Policy </a>
+          </li>
+          <li class="nav-itm">
+            <a href="" class="nav-link text-muted" style="color: white;">|</a>
+          </li>
+          <li class="nav-itm">
+            <a href="" class="nav-link text-muted" style="color: white;">Terms of Use</a>
+          </li>
+        </ul>
+
+      </nav>
+
+    </div>
+    <div class="col-md-2 bg-dark">
+
+    </div>
+
+  </div>
+
+  <!--last navbar ends-->
+
+
+    </div>
+    <!--container ends here-->
+
+</body>
+</html>
